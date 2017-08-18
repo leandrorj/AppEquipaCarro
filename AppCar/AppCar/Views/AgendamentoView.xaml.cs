@@ -27,18 +27,18 @@ namespace AppCar.Views
         {
             DisplayAlert("Agendamento",
                 string.Format(
-                    @"Veiculo: {0}
-                    Nome: {1}
-                    Fone: {2}
-                    E-mail: {3}
-                    Data de Agendamento: {4}
-                    Hora de Agendamento: {5}",
-                    ViewModel.Agendamento.Veiculo.Nome,
-                    ViewModel.Agendamento.Nome,
-                    ViewModel.Agendamento.Fone,
-                    ViewModel.Agendamento.Email,
-                    ViewModel.Agendamento.DataAgendamento.ToString("dd/MM/yyy"),
-                    ViewModel.Agendamento.HoraAgendamento), "ok");
+@"Veiculo: {0}
+Nome: {1}
+Fone: {2}
+E-mail: {3}
+Data de Agendamento: {4}
+Hora de Agendamento: {5}",
+ViewModel.Agendamento.Veiculo.Nome,
+ViewModel.Agendamento.Nome,
+ViewModel.Agendamento.Fone,
+ViewModel.Agendamento.Email,
+ViewModel.Agendamento.DataAgendamento.ToString("dd/MM/yyy"),
+ViewModel.Agendamento.HoraAgendamento), "ok");
         }
     }
 }
