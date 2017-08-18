@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using AppCar.Models;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace AppCar.ViewModels
 {
@@ -98,6 +100,11 @@ namespace AppCar.ViewModels
         public DetalheViewModel(Veiculo veiculo)
         {
             this.Veiculo = veiculo;
+            ProximoCommand = new Command(() =>
+            {
+                
+                MessagingCenter.Send(veiculo, "Proximo");
+            });
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -107,6 +114,8 @@ namespace AppCar.ViewModels
             
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        public ICommand ProximoCommand { get; set; }
 
     }
 }

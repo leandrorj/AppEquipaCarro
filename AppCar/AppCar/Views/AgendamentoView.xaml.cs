@@ -23,10 +23,14 @@ namespace AppCar.Views
             this.BindingContext = this.ViewModel;
         }
 
-        private void buttonAgendar_Clicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            DisplayAlert("Agendamento",
-                string.Format(
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Agendamento>(this, "Agendamento",
+                (msg) =>
+                {
+                    DisplayAlert("Agendamento",
+                        string.Format(
 @"Veiculo: {0}
 Nome: {1}
 Fone: {2}
@@ -39,6 +43,14 @@ ViewModel.Agendamento.Fone,
 ViewModel.Agendamento.Email,
 ViewModel.Agendamento.DataAgendamento.ToString("dd/MM/yyy"),
 ViewModel.Agendamento.HoraAgendamento), "ok");
+
+                });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Agendamento>(this, "Agendamento");
         }
     }
 }

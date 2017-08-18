@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace AppCar.ViewModels
 {
@@ -82,7 +84,14 @@ namespace AppCar.ViewModels
         {
             this.Agendamento = new Agendamento();
             this.Agendamento.Veiculo = veiculo;
+
+            AgendarCommand = new Command(() =>
+            {
+                MessagingCenter.Send<Agendamento>(this.Agendamento, "Agendamento");
+            });
         }
+
+        public ICommand AgendarCommand { get; set; }
 
     }
 }

@@ -24,10 +24,21 @@ namespace AppCar.Views
 
         }
 
-        private void buttonProximo_Clicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Veiculo>(this, "Proximo", (msg) =>
+            {
+                Navigation.PushAsync(new AgendamentoView(msg));
+            });
 
-            Navigation.PushAsync(new AgendamentoView(this.Veiculo));
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Veiculo>(this, "Proximo");
+
         }
 
     }

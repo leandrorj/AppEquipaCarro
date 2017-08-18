@@ -1,4 +1,3 @@
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\AppCar.Droid.csprojResolveAssemblyReference.cache
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid.apk
@@ -28,6 +27,7 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\AppCar.Droid.csprojResolveAssemblyReference.cache
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\AppCar.Droid.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\AppCar.Droid.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\bin\AppCar.Droid.apk
