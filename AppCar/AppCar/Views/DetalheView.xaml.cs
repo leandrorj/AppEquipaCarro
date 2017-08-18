@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppCar.Models;
+using AppCar.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,111 +12,15 @@ namespace AppCar.Views
 {
     public partial class DetalheView : ContentPage
     {
-        private const int FREIO_ABS = 1200;
-        private const int AR_CONDICIONADO = 2000;
-        private const int MP3_PLAYER = 700;
-
 
         public Veiculo Veiculo { get; set; }
 
-        public string TextoFreioABS
-        {
-            get
-            {
-                return string.Format("Freio ABS - R$ {0}", FREIO_ABS);
-            }
-        }
 
-        public string TextoArCondicionado
-        {
-            get
-            {
-                return string.Format("Ar Condicionado - R$ {0}", AR_CONDICIONADO);
-            }
-        }
-
-        public string TextoMP3Player
-        {
-            get
-            {
-                return string.Format("MP3 Player - R$ {0}", MP3_PLAYER);
-            }
-        }
-
-
-        bool temFreioABS;
-        public bool TemFreioABS
-        {
-            get
-            {
-                return temFreioABS;
-            }
-            set
-            {
-                temFreioABS = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(ValorTotal));
-
-            }
-
-        }
-
-
-        bool temArCondicionado;
-        public bool TemArCondicionado
-        {
-            get
-            {
-                return temArCondicionado;
-             
-            }
-            set
-            {
-                temArCondicionado = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(ValorTotal));
-            }
-
-        }
-
-        bool temMP3Player;
-        public bool TemMP3Player
-        {
-            get
-            {
-                return temMP3Player;
-            }
-            set
-            {
-                temMP3Player = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(ValorTotal));
-            }
-        }
-
-
-
-        public string ValorTotal
-        {
-            get
-            {
-                return string.Format("Valor Total: R$ {0}", Veiculo.Preco
-                  + (TemFreioABS ? FREIO_ABS : 0)
-                  + (TemArCondicionado ? AR_CONDICIONADO : 0)
-                  + (TemMP3Player ? MP3_PLAYER : 0)
-                  );
-            }
-        }
-
-
-        
         public DetalheView(Veiculo veiculo)
         {
             InitializeComponent();
-
-           // this.Title = veiculo.Nome;
             this.Veiculo = veiculo;
-            this.BindingContext = this;
+            this.BindingContext = new DetalheViewModel(veiculo);
 
         }
 

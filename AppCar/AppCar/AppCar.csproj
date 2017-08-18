@@ -38,6 +38,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Agendamento.cs" />
+    <Compile Include="Models\ListagemVeiculos.cs" />
+    <Compile Include="Models\Veiculo.cs" />
+    <Compile Include="ViewModels\AgendamentoViewModel.cs" />
+    <Compile Include="ViewModels\DetalheViewModel.cs" />
+    <Compile Include="ViewModels\ListagemViewModel.cs" />
     <Compile Include="Views\DetalheView.xaml.cs">
       <DependentUpon>DetalheView.xaml</DependentUpon>
     </Compile>
