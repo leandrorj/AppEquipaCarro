@@ -17,3 +17,5 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar\obj\Debug\AppCar.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar\obj\Debug\AppCar.dll.mdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar\bin\Debug\AppCar.dll.mdb
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar\obj\Debug\AppCar.dll.mdb
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar\bin\Debug\AppCar.dll.mdb
