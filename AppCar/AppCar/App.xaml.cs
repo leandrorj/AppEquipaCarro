@@ -1,4 +1,5 @@
-﻿using AppCar.Views;
+﻿using AppCar.ViewModels;
+using AppCar.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,17 @@ namespace AppCar
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ListagemView());
+            MainPage = new LoginView();
         }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+            MessagingCenter.Subscribe<Usuario>(this, "SucessoLogin",
+                (usuario) =>
+                {
+                    MainPage = new NavigationPage(new ListagemView());
+                });
         }
 
         protected override void OnSleep()

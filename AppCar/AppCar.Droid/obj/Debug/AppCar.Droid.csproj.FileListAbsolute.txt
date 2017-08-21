@@ -41,6 +41,7 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\res\layout\tabbar.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\res\layout\toolbar.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\res\values\styles.xml
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\res\drawable\logocarro.png
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\R.cs.flag
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\uploadflags.txt
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid.dll.mdb
