@@ -27,10 +27,16 @@ namespace AppCar.Views
         {
             base.OnAppearing();
             MessagingCenter.Subscribe<Agendamento>(this, "Agendamento",
-                (msg) =>
+                async (msg) =>
                 {
-                    DisplayAlert("Agendamento",
-                        string.Format(
+                   var confirma = await DisplayAlert("Agendamento",
+                        "Deseja mesmo enviar o agendamento?",
+                        "Sim", "Não");
+
+                    if (confirma)
+                    {
+                        DisplayAlert("Agendamento",
+    string.Format(
 @"Veiculo: {0}
 Nome: {1}
 Fone: {2}
@@ -43,7 +49,7 @@ ViewModel.Agendamento.Fone,
 ViewModel.Agendamento.Email,
 ViewModel.Agendamento.DataAgendamento.ToString("dd/MM/yyy"),
 ViewModel.Agendamento.HoraAgendamento), "ok");
-
+                    }
                 });
         }
 

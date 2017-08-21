@@ -16,6 +16,7 @@ namespace AppCar.Models
                 new Veiculo { Nome="Azera V6", Preco = 60000},
                 new Veiculo { Nome="Fiesta", Preco = 50000},
                 new Veiculo { Nome="Vectra", Preco = 40000},
+                new Veiculo { Nome="Hilux 4x4", Preco = 90000}
             };
 
         }
