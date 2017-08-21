@@ -29,27 +29,26 @@ namespace AppCar.Views
             MessagingCenter.Subscribe<Agendamento>(this, "Agendamento",
                 async (msg) =>
                 {
-                   var confirma = await DisplayAlert("Agendamento",
-                        "Deseja mesmo enviar o agendamento?",
-                        "Sim", "Não");
+                    var confirma = await DisplayAlert("Agendamento",
+                         "Deseja mesmo enviar o agendamento?",
+                         "Sim", "Não");
 
                     if (confirma)
                     {
-                        DisplayAlert("Agendamento",
-    string.Format(
-@"Veiculo: {0}
-Nome: {1}
-Fone: {2}
-E-mail: {3}
-Data de Agendamento: {4}
-Hora de Agendamento: {5}",
-ViewModel.Agendamento.Veiculo.Nome,
-ViewModel.Agendamento.Nome,
-ViewModel.Agendamento.Fone,
-ViewModel.Agendamento.Email,
-ViewModel.Agendamento.DataAgendamento.ToString("dd/MM/yyy"),
-ViewModel.Agendamento.HoraAgendamento), "ok");
+                        this.ViewModel.SalvarAgendamento();
+
                     }
+                });
+
+            MessagingCenter.Subscribe<Agendamento>(this, "SucessoAgendamento",
+                (msg) =>
+                {
+                    DisplayAlert("Agendamento", "Agendamento salvo com sucesso", "ok");
+                });
+            MessagingCenter.Subscribe<ArgumentException>(this, "FalhaAgendamento",
+                (msg) =>
+                {
+                    DisplayAlert("Agendamento", "Falha ao agendar o test driver", "ok");
                 });
         }
 
@@ -57,6 +56,10 @@ ViewModel.Agendamento.HoraAgendamento), "ok");
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Agendamento>(this, "Agendamento");
+
+            MessagingCenter.Unsubscribe<Agendamento>(this, "SucessoAgendamento");
+
+            MessagingCenter.Unsubscribe<ArgumentException>(this, "FalhaAgendamento");
         }
     }
 }
