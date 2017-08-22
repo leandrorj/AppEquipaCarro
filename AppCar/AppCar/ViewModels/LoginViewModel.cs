@@ -1,6 +1,8 @@
-﻿using System;
+﻿using AppCar.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -14,14 +16,23 @@ namespace AppCar.ViewModels
         public string Usuario
         {
             get { return usuario; }
-            set { usuario = value; }
+            set
+            {
+                usuario = value;
+                ((Command)EntrarCommand).ChangeCanExecute();
+
+            }
         }
 
         private string senha;
         public string Senha
         {
             get { return senha; }
-            set { senha = value; }
+            set
+            {
+                senha = value;
+                ((Command)EntrarCommand).ChangeCanExecute();
+            }
         }
 
         public ICommand EntrarCommand { get; private set; }
@@ -29,11 +40,18 @@ namespace AppCar.ViewModels
 
         public LoginViewModel()
         {
-            EntrarCommand = new Command(() =>
+            EntrarCommand = new Command(async() =>
             {
-                MessagingCenter.Send<Usuario>(new Usuario(), "SucessoLogin");
-            });
+                var loginService = new LoginService();
+                await loginService.FazerLogin(new Login(usuario, senha));
+            }, () =>
+                {
+                    return !string.IsNullOrEmpty(usuario)
+                           && !string.IsNullOrEmpty(senha);
+                });
         }
 
+
     }
+
 }
