@@ -28,11 +28,11 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.ObjectModel.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.IO.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Collections.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.IO.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
