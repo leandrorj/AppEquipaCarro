@@ -44,7 +44,10 @@ namespace AppCar.ViewModels
         }
         public string Fone
         {
-            get { return Agendamento.Fone; }
+            get
+            {
+                return Agendamento.Fone;
+            }
             set
             {
                 Agendamento.Fone = value;

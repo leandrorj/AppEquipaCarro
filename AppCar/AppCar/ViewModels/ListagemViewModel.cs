@@ -28,13 +28,12 @@ namespace AppCar.ViewModels
             set
             {
                 veiculoSelecionado = value;
-                if(value != null)
-                MessagingCenter.Send(veiculoSelecionado, "VeiculoSelecionado");
+                if (value != null)
+                    MessagingCenter.Send(veiculoSelecionado, "VeiculoSelecionado");
             }
         }
 
         private bool aguarde;
-
         public bool Aguarde
         {
             get { return aguarde; }
@@ -42,14 +41,12 @@ namespace AppCar.ViewModels
             {
                 aguarde = value;
                 OnPropertyChanged();
-                
             }
         }
 
 
         public ListagemViewModel()
         {
-                                
             this.Veiculos = new ObservableCollection<Veiculo>();
         }
 
@@ -57,17 +54,26 @@ namespace AppCar.ViewModels
         {
             Aguarde = true;
             HttpClient cliente = new HttpClient();
-            var resultado = await cliente.GetStringAsync(URL_GET_VEICULOS);
 
-            var veiculosJson  = JsonConvert.DeserializeObject<VeiculoJson[]>(resultado);
-
-            foreach (var veiculoJson in veiculosJson)
+            try
             {
-                this.Veiculos.Add(new Veiculo
+                var resultado = await cliente.GetStringAsync(URL_GET_VEICULOS);
+
+                var veiculosJson = JsonConvert.DeserializeObject<VeiculoJson[]>(resultado);
+
+                this.Veiculos.Clear();
+                foreach (var veiculoJson in veiculosJson)
                 {
-                    Nome = veiculoJson.nome,
-                    Preco = veiculoJson.preco
-                });
+                    this.Veiculos.Add(new Veiculo
+                    {
+                        Nome = veiculoJson.nome,
+                        Preco = veiculoJson.preco
+                    });
+                }
+            }
+            catch (Exception exc)
+            {
+                MessagingCenter.Send<Exception>(exc, "FalhaListagem");
             }
             Aguarde = false;
         }
@@ -77,6 +83,5 @@ namespace AppCar.ViewModels
     {
         public string nome { get; set; }
         public int preco { get; set; }
-
     }
 }

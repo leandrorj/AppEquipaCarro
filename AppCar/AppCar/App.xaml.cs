@@ -1,4 +1,6 @@
-﻿using AppCar.ViewModels;
+﻿
+using AppCar.Models;
+using AppCar.ViewModels;
 using AppCar.Views;
 using System;
 using System.Collections.Generic;
@@ -24,7 +26,8 @@ namespace AppCar
             MessagingCenter.Subscribe<Usuario>(this, "SucessoLogin",
                 (usuario) =>
                 {
-                    MainPage = new NavigationPage(new ListagemView());
+                    //MainPage = new NavigationPage(new ListagemView());
+                    MainPage = new MasterDetailView(usuario);
                 });
         }
 

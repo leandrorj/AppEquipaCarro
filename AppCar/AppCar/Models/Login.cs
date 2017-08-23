@@ -14,6 +14,12 @@ namespace AppCar.Models
 
         public Login(string email, string senha)
         {
+            if (string.IsNullOrEmpty(email))
+                throw new ArgumentException(nameof(email));
+
+            if (string.IsNullOrEmpty(senha))
+                throw new ArgumentException(nameof(senha));
+
             this.email = email;
             this.senha = senha;
         }

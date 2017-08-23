@@ -22,7 +22,8 @@ namespace AppCar.ViewModels
             MessagingCenter.Subscribe<LoginException>(this, "FalhaLogin",
                  async(exc) =>
                 {
-                    await DisplayAlert("Login", exc.Message, "Ok");
+                    await DisplayAlert("Login", @"Falha ao efetuar o login. 
+Verifique os dados e tente novamente mais tarde.", "Ok");
                 });
         }
 
