@@ -11,7 +11,6 @@ namespace AppCar.Views
 {
     public partial class MasterDetailView : MasterDetailPage
     {
-
         private readonly Usuario usuario;
 
         public MasterDetailView(Usuario usuario)

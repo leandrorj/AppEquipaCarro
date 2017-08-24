@@ -109,7 +109,6 @@ namespace AppCar.ViewModels
                 {
                     FotoPerfil = ImageSource.FromStream(
                         () => new MemoryStream(bytes));
-
                 });
         }
     }

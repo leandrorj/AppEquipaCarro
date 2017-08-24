@@ -20,7 +20,6 @@ namespace AppCar.Views
             this.ViewModel = new MasterViewModel(usuario);
             this.BindingContext = this.ViewModel;
         }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -36,7 +35,6 @@ namespace AppCar.Views
                     this.CurrentPage = this.Children[0];
                 });
         }
-
         protected override void OnDisappearing()
         {
             base.OnDisappearing();

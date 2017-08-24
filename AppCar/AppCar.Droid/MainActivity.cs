@@ -22,7 +22,6 @@ namespace AppCar.Droid
         global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
         , ICamera
     {
-
         static Java.IO.File arquivoImagem;
         //private object stream;
 
@@ -39,11 +38,10 @@ namespace AppCar.Droid
         }
 
         private static Java.IO.File PegarArquivoImagem(Intent intent)
-        {
-            
-            Java.IO.File diretorio = new Java.IO.File(
-Android.OS.Environment.GetExternalStoragePublicDirectory(
-Android.OS.Environment.DirectoryPictures), "Imagens");
+        {      
+                    Java.IO.File diretorio = new Java.IO.File(
+        Android.OS.Environment.GetExternalStoragePublicDirectory(
+        Android.OS.Environment.DirectoryPictures), "Imagens");
 
             if (!diretorio.Exists())
                 diretorio.Mkdirs();
@@ -80,8 +78,6 @@ Android.OS.Environment.DirectoryPictures), "Imagens");
                     
                     stream.Read(bytes); 
                 }
-                
-
                 MessagingCenter.Send<byte[]>(bytes, "FotoTirada");
             }
         }

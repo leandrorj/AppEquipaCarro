@@ -1,6 +1,12 @@
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\AppCar.Droid.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\AppCar.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLite-net.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLitePCLRaw.core.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
@@ -49,6 +55,6 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll

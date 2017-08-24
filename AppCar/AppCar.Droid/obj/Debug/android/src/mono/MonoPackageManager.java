@@ -101,6 +101,12 @@ class MonoPackageManager_Resources {
 		"AppCar.Droid.dll",
 		"AppCar.dll",
 		"FormsViewGroup.dll",
+		"SQLite-net.dll",
+		"SQLitePCLRaw.batteries_green.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -136,8 +142,8 @@ class MonoPackageManager_Resources {
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
 		"System.Text.Encoding.Extensions.dll",
-		"System.ComponentModel.dll",
 		"System.Collections.Concurrent.dll",
+		"System.ComponentModel.dll",
 		"System.Runtime.InteropServices.dll",
 	};
 	public static final String[] Dependencies = new String[]{
