@@ -5,6 +5,12 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid-Signed.apk
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
@@ -21,6 +27,8 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\FormsViewGroup.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.pdb
+C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
@@ -46,14 +54,6 @@ C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\Ap
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\R.cs.flag
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\obj\Debug\uploadflags.txt
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.Droid.dll.mdb
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.batteries_green.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.core.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.pdb
-C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\SQLite-net.xml
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\AppCar.dll.mdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\leandro.i.farias\documents\visual studio 2015\Projects\AppCar\AppCar\AppCar.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
